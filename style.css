@@ -1,0 +1,76 @@
+body {
+  background-color: rgb(250,250,250);
+  font-family: 'Raleway', sans-serif;
+  color: rgb(10,10,10)
+}
+
+.banner {
+  background-image: url(https://source.unsplash.com/random/1000*500);
+  margin-top: 32px;
+  margin-bottom: 32px;
+  color: rgb(240,240,240);
+  padding: 120px;
+}
+
+.banner h2 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-style: italic;
+  font-weight: lighter;
+  margin-top: 32px;
+  color: rgba(240,240,240,0.6);
+}
+
+.text-center{
+  text-align: center;
+}
+
+.container {
+  width: 800px;
+  margin: 50px auto;
+}
+
+.container .title {
+  font-weight: lighter;
+  color: rgb(100,100,100)
+}
+
+.container p {
+  line-height: 24px;
+  text-align: justify;
+}
+
+.container a {
+  text-decoration: none;
+  padding: 4px;
+  border-radius: 4px;
+  background-color: #a1d4c4;
+}
+
+.container a:visited {
+  color: rgb(10,10,10)
+}
+
+.container a:hover{
+  background-color: #59d5ae
+}
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+}
